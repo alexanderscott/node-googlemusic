@@ -1,6 +1,8 @@
-# node-googlemusic
+# node-googlemusic (WIP)
 
-Unofficial Google Music API Client for Node.js
+Unofficial Google Music API Client for Node.js.  
+
+Currently a work in progress to replicate in Node.js features included in [PHP](https://code.google.com/p/unofficial-google-music-api-php/) and [Python](https://github.com/simon-weber/Unofficial-Google-Music-API)
 
 ## Installation
 Install via npm:
