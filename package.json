@@ -1,6 +1,6 @@
 {
   "name": "googlemusic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "API wrapper for Google Music webservices in Node.js",
   "keywords": [
     "google music",
@@ -15,8 +15,9 @@
   "dependencies": {
     "request": "~2.27.0",
     "underscore": "~1.5.2",
-     "googleapis": "~0.4.7",
-     "async": "~0.2.10"
+    "async": "~0.2.10",
+    "getmac": "^1.0.6",
+    "googleclientlogin": "^0.2.6"
   },
   "devDependencies": {
     "mocha": "~1.14.0"
@@ -32,7 +33,7 @@
     }
   ],
   "scripts": {
-      "start": "node index",
-      "test": "make test"
+    "start": "node index",
+    "test": "make test"
   }
 }
