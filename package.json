@@ -1,0 +1,38 @@
+{
+  "name": "googlemusic",
+  "version": "0.0.1",
+  "description": "API wrapper for Google Music webservices in Node.js",
+  "keywords": [
+    "google music",
+    "api"
+  ],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexanderscott/node-googlemusic.git"
+  },
+  "author": "Alex Ehrnschwender <alex@crunchdevelopment.com> (http://alexehrnschwender.com)",
+  "dependencies": {
+    "request": "~2.27.0",
+    "underscore": "~1.5.2",
+     "googleapis": "~0.4.7",
+     "async": "~0.2.10"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "engines": [
+    "node >=0.8.0"
+  ],
+  "main": "lib/googlemusic",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alexanderscott/node-googlemusic/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+      "start": "node index",
+      "test": "make test"
+  }
+}
