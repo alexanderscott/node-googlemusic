@@ -1,6 +1,6 @@
 {
   "name": "googlemusic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API wrapper for Google Music webservices in Node.js",
   "keywords": [
     "google music",

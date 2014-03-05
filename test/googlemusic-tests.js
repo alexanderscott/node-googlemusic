@@ -1,5 +1,7 @@
 "use strict";
 
+exports.name = 'WebClientTests';
+
 var assert = require('assert'),
     GMusicClient = require('../lib/googlemusic'),
     playlistFixtures = require('./fixtures/playlists'),
