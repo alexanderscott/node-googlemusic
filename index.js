@@ -2,7 +2,7 @@
 
 exports.WebClient = require('./lib/clients/WebClient').WebClient;
 exports.MobileClient = require('./lib/clients/MobileClient').MobileClient;
-exports.MusicManager = require('./lib/clients/MusicManager').MusicManager;
+exports.MusicManager = require('./lib/clients/MusicManagerClient').MusicManagerClient;
 
 exports.WebSession = require('./lib/session/WebSession').WebSession;
 exports.MobileSession = require('./lib/session/MobileSession').MobileSession;
