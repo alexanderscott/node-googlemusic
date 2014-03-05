@@ -7,7 +7,6 @@ var assert = require('assert'),
     playlistFixtures = require('./fixtures/playlists'),
     trackFixtures = require('./fixtures/tracks'),
     artistFixtures = require('./fixtures/artists'),
-    //readline = require('readline'),
     _und = require('underscore');
 
 var rl, creds = {};
